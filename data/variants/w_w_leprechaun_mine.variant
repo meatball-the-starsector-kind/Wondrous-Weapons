@@ -1,0 +1,51 @@
+{
+  "variantId": "w_w_leprechaun_mine",
+  "hullId": "w_w_leprechaun",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 3,
+  "quality": 0.3,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "w_w_mininglance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "w_w_wheellock",
+        "WS0004": "w_w_matchlock"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "w_w_slt",
+        "WS0005": "w_w_slt_med",
+        "WS0008": "w_w_slt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "flak",
+        "WS0007": "w_w_lrmining"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

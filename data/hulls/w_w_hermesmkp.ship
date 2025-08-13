@@ -1,0 +1,90 @@
+{
+  "hullName": "Hermes Mk.II(P)",
+  "hullId": "w_w_hermesmkp",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hermesmkii/w_w_hermesmkp.png",
+  "style": "LOW_TECH",
+  "height": 81,
+  "width": 105,
+  "center": [54, 50],
+  "collisionRadius": 49.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "militarized_subsystems",
+    "w_w_sparse_hangar"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -40,
+      "locations": [-11.5, -25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [7, 33]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-27, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, -10],
+      "length": 30,
+      "width": 15,
+      "angle": 190,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-46, 10],
+      "length": 30,
+      "width": 15,
+      "angle": -190,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -47, 15.5,
+    -40, 20.5,
+    -23, 41.5,
+    2, 48,
+    12, 48,
+    21, 41,
+    21, 7,
+    30, -3,
+    30, -12,
+    16, -42.5,
+    0, -45.5,
+    -23, -42.5,
+    -40, -21.5,
+    -47, -16.5
+  ]
+}

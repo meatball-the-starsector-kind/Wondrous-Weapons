@@ -1,0 +1,96 @@
+{
+  "hullName": "Pitman",
+  "hullId": "w_w_pitman",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/w_w_pitman.png",
+  "style": "LOW_TECH",
+  "height": 84,
+  "width": 96,
+  "center": [48, 42.5],
+  "collisionRadius": 71,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "w_w_freq_twks",
+    "repair_gantry"
+  ],
+  "builtInWeapons": {
+    "WS 002": "w_w_stewart",
+    "WS 003": "mininglaser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -60,
+      "locations": [11.5, -28.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 60,
+      "locations": [11.5, 28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38.5, -0.5],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, 34],
+      "length": 30,
+      "width": 10,
+      "angle": 175,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, -34],
+      "length": 30,
+      "width": 10,
+      "angle": 185,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -38, 28.5,
+    -26.5, 39,
+    33.5, 41,
+    39, 0,
+    33, -40.5,
+    -26.5, -39,
+    -38, -27.5
+  ]
+}

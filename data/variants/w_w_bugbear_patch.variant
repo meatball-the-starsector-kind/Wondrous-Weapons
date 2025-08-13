@@ -1,0 +1,53 @@
+{
+  "variantId": "w_w_bugbear_patch",
+  "hullId": "w_w_bugbear",
+  "displayName": "Patchwork",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "shredder",
+        "WS0005": "w_w_slt_med",
+        "WS0006": "w_w_lrmining",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg",
+        "WS0009": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightac",
+        "WS0003": "w_w_matchlock"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

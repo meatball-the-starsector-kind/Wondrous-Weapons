@@ -1,0 +1,48 @@
+{
+  "id": "w_w_grav_blaster",
+  "specClass": "projectile",
+  "projectileSpecId": "w_w_grav_blaster_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/gravblaster/w_w_gravblaster_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/gravblaster/w_w_gravblaster_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/gravblaster/w_w_gravblaster_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/gravblaster/w_w_gravblaster_hardpoint_glow.png",
+  "glowColor": [
+    25,
+    215,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    8.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_blaster_fire"
+}

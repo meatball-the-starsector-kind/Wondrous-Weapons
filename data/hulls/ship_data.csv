@@ -1,0 +1,35 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
+##Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Munga,w_w_munga,,Low Tech,,,400,100,150,,100,0,,130,125,125,40,90,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,9
+Sawtooth,w_w_sawtooth,,Pirate,,,700,70,300,,80,0,,190,200,125,70,210,40,OMNI,,120,0,1,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,0,,,,123
+#Lux,lux,,Remnant,flarelauncher_fighter,,400,60,350,,50,0,,220,350,350,100,240,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,115
+#Piranha,piranha,,Low Tech,,,500,75,200,,100,0,,150,200,200,40,120,30,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,0,,,,105
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##Frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hermes MK.II,w_w_hermesmkii,Converted Gunship,Low Tech,ammofeed,4,2500,500,1800,,170,45,,105,110,90,60,80,310,NONE,,,,,,,30,40,25,14,0.7,20,9,14000,5,15,230,0.2,4,4,,,,,,,COMBAT,"base_bp, merc, ind",,,0.9,0.45,3,3,,210.5
+Hermes MK.II (P),w_w_hermesmkp,Converted Carrier,Pirate,targetingfeed,4,2250,400,1800,,170,40,1,90,95,80,60,75,300,NONE,,,,,,,35,40,25,10,1,10,9,14000,5,20,220,0.2,4,4,,,,,,,COMBAT,"pirate_bp, pirates",,,0.8,0.45,3,3,,210.5
+Hermes MK.II (LP),w_w_hermesmklp,Converted Gunship,Luddic Path,w_w_infernburn,6,3000,550,1800,,170,40,,110,115,90,60,80,330,NONE,,,,,,,35,40,25,10,1,10,9,20000,5,25,240,0.2,6,6,,,,,,,"COMBAT, ALWAYS_PANIC","LP_bp, luddic_path",,,0.7,0.45,3,3,,210.5
+Alacrity,w_w_alc,Frigate,High Tech,microburn,6,2000,250,2500,,150,55,,160,150,125,60,120,200,FRONT,,120,0.2,0.7,,,15,35,50,20,1,20,10,22000,10,20,180,0.25,6,6,,,,,,,COMBAT,"hightech_bp, merc, ind, tritachyon",,,,,0.75,0.5,,
+Alacrity (P),w_w_alcp,Frigate,Pirate,maneuveringjets,5,2500,500,2500,,140,55,,140,100,80,50,80,310,OMNI,,120,0.3,0.8,,,20,35,60,30,1,30,10,16000,10,15,220,0.2,5,5,,,,,,,COMBAT,"pirate_bp, pirates",,,,,0.75,0.5,,
+Warfarer,w_w_warfarer,Converted Barge,Pirate,flarelauncher_active,6,2500,300,1600,,120,60,,120,105,70,45,90,300,OMNI,,120,0.4,0.8,,,30,50,100,20,1,20,10,20000,5,15,240,0.2,6,6,,,,,,,COMBAT,"pirate_bp, pirates",,,,,2,3,,
+Pitman,w_w_pitman,Converted Miner,Low Tech,highenergyfocus,4,2200,350,2000,,170,30,,100,80,70,60,75,300,OMNI,,180,0.3,0.8,,,25,40,25,20,1,20,9,13000,5,20,230,0.2,4,4,,,,,,,COMBAT,"base_bp, merc, ind",,,,,0.5,2,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##Destroyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ballistae,w_w_ballistae,Missile Destroyer,Explorarium,forgevats,10,5000,550,3400,2813,260,70,,60,40,20,20,20,440,NONE,,0,0,0,,,0,0,60,35,2,20,8,50000,5,10,540,0.25,7,7,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,,,0.5,2,4,,316
+Nyala,w_w_nyala,Phase Destroyer,Low Tech,w_w_bypass,6,4000,450,3400,,200,80,,90,50,35,30,45,400,PHASE,phasecloak,,,,0.05,0.08,50,50,15,25,2.1,12,9,25000,4,20,160,0.3,6,6,,,,,,,"COMBAT, ALWAYS_PANIC","base_bp, merc, ind, pirates, luddic_path",,,,0.7,3,4,,
+Leprechaun,w_w_leprechaun,Phase Destroyer,Low Tech,w_w_bypass,9,5000,550,5000,,220,90,,80,50,20,20,15,800,PHASE,phasecloak,,,,0.1,0.05,60,90,50,40,2.5,16,8,35000,4,20,380,0.2,8,8,,,,,,,"COMBAT, ALWAYS_PANIC","base_bp, merc, ind, pirates, luddic_path",,,0.8,0.5,2,3,,
+Vaquero,w_w_vaq,Destroyer,Midline,flarelauncher_active,10,6000,550,4000,,250,100,,85,60,40,40,50,420,OMNI,,180,0.1,0.75,,,50,100,120,50,2,25,9,38000,5,12,360,0.25,10,10,,,,,,,COMBAT,"merc, ind, midline_bp",,,,0.7,2,3,,
+Matador,w_w_mat,Destroyer,Pirate,highenergyfocus,10,5500,650,3800,,260,100,,90,80,30,30,40,410,FRONT,,180,0.2,0.9,,,60,100,100,40,2,20,9,35000,5,15,340,0.2,9,9,,,,,,,COMBAT,"pirate_bp, pirates",,,,0.7,2,3,,
+Lumbre,w_w_lum,Destroyer,Luddic Path,w_w_infernburn,12,6200,650,4000,,250,100,,90,80,40,40,50,440,FRONT,,180,0.2,0.8,,,60,100,120,40,2,20,9,40000,5,15,330,0.2,14,14,,,,,,,"COMBAT, ALWAYS_PANIC","LP_bp, luddic_path",,,0.7,0.7,2,3,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+##Cruisers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bugbear,w_w_bugbear,Phase Cruiser,Low Tech,w_w_bypass,16,8000,750,7000,,450,145,1,70,60,40,15,20,1500,PHASE,phasecloak,,,,0.05,0.08,200,300,50,50,2.5,20,8,70000,4,20,400,0.4,18,18,,,,,,,"COMBAT, ALWAYS_PANIC","base_bp, merc, ind, pirates, luddic_path",,,0.8,0.8,3,5,,405.5
+Igneon,w_w_igneon,Tanker,Low Tech,flarelauncher,6,7000,700,5000,,250,70,,50,25,15,20,10,1400,OMNI,,120,0.4,1.2,,,30,60,150,1350,4,,7,50000,3,20,480,0.25,6,6,,,,,,,"CIVILIAN, TANKER","base_bp, merc, ind",,,,0.5,2,4,,411
+Brow,w_w_brow,Experimental Cruiser,High Tech,lidararray,10,7000,700,10000,,600,130,,80,90,80,30,60,1400,OMNI,,180,0.3,0.7,,,50,100,100,80,3,27,8,80000,4,12,420,0.25,18,18,,,,,,,COMBAT,"rare_bp, merc, ind, tritachyon",,,0.4,,,0.6,,3
+Ribaldo,w_w_ribaldo,Mining Barge,Low Tech,reservewing,13,9000,1150,5000,4000,250,120,3,45,20,10,10,10,1900,OMNI,,150,0.4,1,,,220,350,100,80,4,20,8,65000,4,14,420,0.25,17,17,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","base_bp, merc, ind",,,,0.4,2,3,,410
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

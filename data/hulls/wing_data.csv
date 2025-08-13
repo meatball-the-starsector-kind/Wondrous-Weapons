@@ -1,0 +1,5 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+w_w_munga_wing,w_w_munga_surveyp,"bomber1, bomber, drone, low, base_bp, auto_fighter, merc, ind",0,,5,5,CLAW,2000,1000,300,3,BOMBER,Bomber,12,3000,,,,,,,,,,,,,9
+#wasp_wing,wasp_Interceptor,"interceptor3, interceptor, high, hightech_bp, auto_fighter, merc, ind",1,,5,5,CLAW,4000,200,700,6,INTERCEPTOR,Interceptor Drone,3,6000,,,,,,,,,,,,,7
+w_w_sawtooth_wing,w_w_sawtooth_superf,"fighter3, fighter, low, merc, ind, pirate_bp",2,0.5,7,10,CLAW,3000,700,,2,FIGHTER,"""Super"" Fighter",16,6000,,,,,,,,,,,,,123
+#lux_wing,lux_Fighter,"no_sell, fighter, remnant, fighter5, auto_fighter, merc, codex_unlockable",3,,6,10,V,4000,500,,4,FIGHTER,Fighter Drone,12,6000,,,,,,,,,,,,,23

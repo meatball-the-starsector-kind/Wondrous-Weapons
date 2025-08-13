@@ -1,0 +1,38 @@
+{
+  "variantId": "w_w_hermesmkii_snip",
+  "hullId": "w_w_hermesmkii",
+  "displayName": "Sniper",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

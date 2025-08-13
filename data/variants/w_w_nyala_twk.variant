@@ -1,0 +1,42 @@
+{
+  "variantId": "w_w_nyala_twk",
+  "hullId": "w_w_nyala",
+  "displayName": "Tweaker",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 0.7,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "w_w_matchlock",
+        "WS 008": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mininglaser",
+        "WS 002": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

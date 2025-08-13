@@ -1,0 +1,45 @@
+{
+  "variantId": "w_w_brow_lance",
+  "hullId": "w_w_brow",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 12,
+  "quality": 0.7,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "taclaser",
+        "WS0004": "heavymauler",
+        "WS0008": "heatseeker",
+        "WS0009": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

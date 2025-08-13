@@ -1,0 +1,52 @@
+{
+  "variantId": "w_w_bugbear_frenz",
+  "hullId": "w_w_bugbear",
+  "displayName": "Frenzied",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 8,
+  "quality": 0.9,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "w_w_matchlock",
+        "WS0004": "w_w_slt_med",
+        "WS0005": "w_w_slt_med"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "w_w_matchlock",
+        "WS0009": "w_w_wheellock"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightmg",
+        "WS0007": "lightmg",
+        "WS0008": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing"
+  ]
+}

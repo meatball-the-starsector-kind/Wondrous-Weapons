@@ -1,0 +1,58 @@
+{
+  "id": "w_w_flintlock",
+  "specClass": "projectile",
+  "projectileSpecId": "w_w_gauss_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/flintlock/w_w_flintlock_turret.png",
+  "turretGlowSprite": "graphics/weapons/flintlock/w_w_flintlock_glow_turret.png",
+  "turretGunSprite": "graphics/weapons/flintlock/w_w_flintlock_recoil_turret.png",
+  "hardpointSprite": "graphics/weapons/flintlock/w_w_flintlock_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/flintlock/w_w_flintlock_glow_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/flintlock/w_w_flintlock_recoil_hardpoint.png",
+  "glowColor": [
+    200,
+    200,
+    255,
+    255
+  ],
+  "visualRecoil": -14,
+  "turretOffsets": [
+    29.5,
+    -7,
+    29.5,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    46.5,
+    -7,
+    46.5,
+    7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 70,
+    "spread": 2,
+    "particleSizeMin": 8,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 24,
+    "particleColor": [
+      200,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "neoferric_quadcoil_fire"
+}

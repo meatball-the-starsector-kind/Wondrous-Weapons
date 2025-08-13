@@ -1,0 +1,27 @@
+{
+  "variantId": "w_w_hermesmklp_crus",
+  "hullId": "w_w_hermesmklp",
+  "displayName": "Crusader",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "quality": 0.3,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest",
+        "WS0002": "arbalest",
+        "WS0003": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

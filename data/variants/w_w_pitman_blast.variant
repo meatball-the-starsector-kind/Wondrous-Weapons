@@ -1,0 +1,37 @@
+{
+  "variantId": "w_w_pitman_blast",
+  "hullId": "w_w_pitman",
+  "displayName": "Blaster",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 0.9,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "w_w_stewart"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

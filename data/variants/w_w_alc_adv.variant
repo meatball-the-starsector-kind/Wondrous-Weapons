@@ -1,0 +1,40 @@
+{
+  "variantId": "w_w_alc_adv",
+  "hullId": "w_w_alc",
+  "displayName": "Advanced",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 0.6,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "w_w_grav_blaster",
+        "WS0004": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

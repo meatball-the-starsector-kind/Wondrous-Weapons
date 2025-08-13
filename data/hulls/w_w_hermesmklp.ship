@@ -1,0 +1,95 @@
+{
+  "hullName": "Hermes Mk.II(LP)",
+  "hullId": "w_w_hermesmklp",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hermesmkii/w_w_hermesmklp.png",
+  "style": "LOW_TECH",
+  "height": 83,
+  "width": 102,
+  "center": [51, 42],
+  "collisionRadius": 49.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "militarized_subsystems",
+    "ill_advised",
+    "safetyoverrides",
+    "w_w_conv_missile_bay"
+  ],
+  "builtInWeapons": {
+    "WS0003": "jackhammer"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -40,
+      "locations": [-3.5, -25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 40,
+      "locations": [-3.5, 25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [28, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, -10],
+      "length": 30,
+      "width": 20,
+      "angle": 190,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, 10],
+      "length": 30,
+      "width": 20,
+      "angle": -190,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38, -0.5],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -39, 16,
+    -32, 21,
+    -15, 42,
+    8, 45,
+    24, 42,
+    30, 27,
+    38, 10,
+    38, -10,
+    30, -27,
+    24, -42,
+    8, -45,
+    -15, -42,
+    -32, -21,
+    -39, -16
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "w_w_hermesmkp_div",
+  "hullId": "w_w_hermesmkp",
+  "displayName": "Diversion",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 1,
+  "quality": 0.4,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

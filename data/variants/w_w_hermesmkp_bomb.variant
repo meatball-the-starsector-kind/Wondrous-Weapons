@@ -1,0 +1,29 @@
+{
+  "variantId": "w_w_hermesmkp_bomb",
+  "hullId": "w_w_hermesmkp",
+  "displayName": "Bombardier",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 1,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "piranha_wing"
+  ]
+}

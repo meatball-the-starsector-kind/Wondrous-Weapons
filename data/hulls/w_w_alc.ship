@@ -1,0 +1,131 @@
+{
+  "hullName": "Alacrity",
+  "hullId": "w_w_alc",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/alacrity/w_w_alc.png",
+  "style": "HIGH_TECH",
+  "height": 115,
+  "width": 76,
+  "center": [38, 57.5],
+  "collisionRadius": 53.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 40,
+      "locations": [21, 17]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -40,
+      "locations": [14, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 120,
+      "locations": [-33, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [40.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50.5, 11.5],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42.5, -1.5],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-33.5, -22],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-34.5, -19],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35.5, -16],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36.5, -13],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-37.5, -10],
+      "length": 30,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    6.5, 32,
+    -3.5, 21,
+    -32.5, 26,
+    -51.5, 16,
+    -51.5, 7,
+    -43.5, 4,
+    -34.5, -24,
+    -15.5, -28,
+    9.5, -28,
+    29.5, -21,
+    39.5, -6,
+    47.5, -6,
+    47.5, 8,
+    52.5, 8,
+    42.5, 23,
+    18.5, 31
+  ]
+}

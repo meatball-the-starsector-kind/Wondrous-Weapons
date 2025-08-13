@@ -1,0 +1,49 @@
+{
+  "variantId": "w_w_ribaldo_prosp",
+  "hullId": "w_w_ribaldo",
+  "displayName": "Prospector",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 15,
+  "quality": 0.4,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "autorepair",
+    "armoredweapons",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "w_w_mininglance",
+        "WS 013": "w_w_stewart",
+        "WS 014": "w_w_lrmining"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "w_w_slt_med",
+        "WS0001": "w_w_slt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "w_w_lrmining",
+        "WS 008": "w_w_lrmining",
+        "WS 011": "w_w_lrmining",
+        "WS 012": "w_w_lrmining"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

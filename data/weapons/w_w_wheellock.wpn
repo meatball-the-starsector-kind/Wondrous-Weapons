@@ -1,0 +1,49 @@
+{
+  "id": "w_w_wheellock",
+  "specClass": "projectile",
+  "projectileSpecId": "w_w_heavy_mass_driver_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/wheellock/w_w_wheellock_turret.png",
+  "turretGlowSprite": "graphics/weapons/wheellock/w_w_wheellock_glow_turret.png",
+  "hardpointSprite": "graphics/weapons/wheellock/w_w_wheellock_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/wheellock/w_w_wheellock_glow_hardpoint.png",
+  "glowColor": [
+    200,
+    200,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 80,
+    "spread": 2,
+    "particleSizeMin": 12,
+    "particleSizeRange": 18,
+    "particleDuration": 0.15,
+    "particleCount": 24,
+    "particleColor": [
+      200,
+      215,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_mass_driver_fire"
+}

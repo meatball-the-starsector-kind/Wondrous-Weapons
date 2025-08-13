@@ -1,0 +1,59 @@
+{
+  "id": "w_w_mininglance",
+  "specClass": "beam",
+  "type": "HYBRID",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/mininglance/w_w_mininglance_turret.png",
+  "turretGlowSprite": "graphics/weapons/mininglance/w_w_mininglance_glow_turret.png",
+  "hardpointSprite": "graphics/weapons/mininglance/w_w_mininglance_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/mininglance/w_w_mininglance_glow_hardpoint.png",
+  "glowColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    11.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    255,
+    0,
+    0,
+    175
+  ],
+  "coreColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "width": 30,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "phase_beam_loop"
+}

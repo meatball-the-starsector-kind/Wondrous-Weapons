@@ -1,0 +1,21 @@
+{
+	"id":"w_w_bypass",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"Meatball.w_w.data.shipsystems.scripts.BypassStats",
+
+	"weaponGlowColor":[255,0,255,255],
+    "weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	"useSound":"system_ammo_feeder",
+	"loopSound":"system_burn_drive_loop",
+    "deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+        "activeSpeedIncrease":100,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":100,
+    }
+}

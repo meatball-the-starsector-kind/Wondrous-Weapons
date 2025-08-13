@@ -1,0 +1,49 @@
+{
+  "variantId": "w_w_ribaldo_surv",
+  "hullId": "w_w_ribaldo",
+  "displayName": "Surveyor",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 15,
+  "quality": 0.7,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair",
+    "surveying_equipment",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "w_w_stewart"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "salamanderpod",
+        "WS 004": "salamanderpod",
+        "WS0001": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "w_w_lrmining",
+        "WS 008": "w_w_lrmining",
+        "WS 011": "w_w_lrmining",
+        "WS 012": "w_w_lrmining",
+        "WS 014": "w_w_lrmining"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing"
+  ]
+}

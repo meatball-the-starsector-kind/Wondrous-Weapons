@@ -1,0 +1,55 @@
+{
+  "variantId": "w_w_brow_pepper",
+  "hullId": "w_w_brow",
+  "displayName": "Pepperer",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 12,
+  "quality": 0.7,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavymauler",
+        "WS0008": "breach",
+        "WS0009": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdburst",
+        "WS0003": "pdburst",
+        "WS0005": "pdburst",
+        "WS0006": "pdburst",
+        "WS0007": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

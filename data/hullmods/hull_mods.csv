@@ -1,0 +1,34 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Frequency Tweaks,w_w_freq_twks,0,,,"offensive, merc, standard",Weapons,1000,,,,5,10,15,25,Meatball.w_w.data.hullmods.FreqTwks,"An old miners’ trick, this simple modification dials down the frequency of the beams or bolts produced via adjustments to local flux grids and power outputs.
+
+Increases range of energy weapons by %s.
+Decreases energy weapon damage by %s.
+
+Bonus is %s for hybrid weapons.
+","Increases hybrid and energy weapon range, but decreases damage.",,graphics/hullmods/w_w_freq_twks.png
+#-,,,,,,,,,,,,,,,,,,,
+Converted Missile Bay,w_w_conv_missile_bay,0,,,,Weapons,0,,TRUE,,0,0,0,0,Meatball.w_w.data.hullmods.ConvMissileBay,"The cargo bay of this ship has been overhauled into an impromptu missile bay, increasing ordnance capacity significantly.
+Increases ammo capacity of missile weapons by %s. Reduces cargo capacity by %s.
+
+Due to improper containment protocols, stored ordnance may “cook off” if jostled too much.
+Ship explosion damage and radius is %s.
+
+Incompatible with Expanded Missile Racks and Missile Autoloader.
+","Increases missile weapon ammo, greatly decreases cargo capacity and increases explosion radius..",,graphics/hullmods/w_w_conv_missile_bay.png
+#-,,,,,,,,,,,,,,,,,,,
+Sparse Hangar,w_w_sparse_hangar,0,,,,Fighters,0,,TRUE,,0,0,0,0,Meatball.w_w.data.hullmods.SparseHangar,"The flight deck of this ship carries only the bare necessities to operate a wing of fighters, and takes a while to replenish any combat losses.
+It can be adjusted to fly more offensive fightercraft with great difficulty, due to the many compromises involved when interfacing incompatible hardware.
+
+Reduces cargo capacity by %s.
+Fighter replacement time is increased by %s.",Reduces cargo capacity and increases fighter replacement time.,,graphics/hullmods/w_w_sparse_hangar.png
+#-,,,,,,,,,,,,,,,,,,,
+Overstressed Phase Coils,w_w_phase_coil_ovr,0,,,,,0,,TRUE,,0,0,0,0,Meatball.w_w.data.hullmods.OvrStrCoils,"Whether through insufficient support, corrosion of delicate components, or reckless redlining, the phase coils of this vessel can only manage a brief dive of about a few seconds before being forcefully ejected from P-Space - or worse.
+
+The coils cannot handle high levels of hard flux, decreasing the threshold at which speed bottoms out by %s. For standard-design coils with no other modifications, this takes the threshold from %s to %s. In addition, calibrating the coils properly is all but impossible - peak performance time is decreased by %s, and combat readiness degradation is increased by %s.
+
+However, the phase-time bonus has increased %s - perhaps due to the way the coils have been butchered.
+
+This hullmod is considered a %s, but it %s.
+","Increases phase-time bonus, at the cost of staying power.",,graphics/hullmods/w_w_phase_coil_ovr.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

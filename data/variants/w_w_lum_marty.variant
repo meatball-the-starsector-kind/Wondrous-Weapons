@@ -1,0 +1,45 @@
+{
+  "variantId": "w_w_lum_marty",
+  "hullId": "w_w_lum",
+  "displayName": "Martyr",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 14,
+  "quality": 0.3,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "insulatedengine",
+    "armoredweapons",
+    "autorepair",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmortar",
+        "WS0002": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "arbalest",
+        "WS0004": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jackhammer",
+        "WS0008": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

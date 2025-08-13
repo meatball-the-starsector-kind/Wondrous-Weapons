@@ -1,0 +1,211 @@
+id,type,text1,text2,text3,text4,notes,,,
+# Types: WEAPON,SHIP,RESOURCE,CUSTOM,ACTION_TOOLTIP,ASTEROID,PLANET,SHIP_SYSTEM,FACTION,TERRAIN
+#SYSTEMS,,,,,,,,,
+w_w_infernburn,SHIP_SYSTEM,"Engages both primary and secondary burns on the system travel drive of the ship. This burn can be maintained indefinitely at the expense of all flux dissipation, as heat sinks and coolant banks are focused on regulating drive temperature.
+
+",Movement,Provides a massive speed boost at the expense of all flux dissipation.,,The ship's top speed is increased by {{100}}.,,,
+w_w_bypass,SHIP_SYSTEM,"An elaborate set of system overrides that leverages a collection of auxillary ammofeeders, embedded capacitors and secondary burn chambers to greatly increase overall performance - at the cost of all flux dissipation.
+",Unleashing,Increases overall combat performance at the cost of all flux dissipation.,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#FIGHTERS,,,,,,,,,
+w_w_sawtooth,SHIP,"The brainchild of a mad genius hopped up on Eochu Bres’s finest product, the Sawtooth’s claim to fame is that of an original pirate design.
+Hacked together from blueprints of varying quality, its patchwork appearance belies its power.
+",,,,,,,
+w_w_munga,SHIP,"This light survey pod is equipped with a relatively long-range control transmitter. In the tumultuous cycles following the Collapse, many legitimate(and shady) mining/exploratory concerns in the Sector have taken advantage of the drone frame's relative sturdiness and flexible engineering tolerances to install a Sleet Torpedo in place of the old flare launching apparatus.
+",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#FRIGATES,,,,,,,,,
+w_w_alc,SHIP,"An exceedingly fast vessel for its size, the Alacrity-class strike frigate offers energy or missile firepower, as well as an efficient, but narrow shield.
+Its miniaturised advanced propulsion system, borrowed from the Shrike, offers it the element of surprise: darting into enemy formations at the first sign of contact, striking, and swiftly escaping before a counterattack can be mounted.
+Its hull and armour were sacrificed for the sake of economics: a relatively light, mass-producible hull prioritizing attack speed simply must have minimal mass.
+This has led to the Alacrity gaining a reputation as a glass cannon best entrusted to the most skilled captains, not unlike its larger cousin.
+
+The propulsion system’s sensitivity to certain oxygen-rich atmospheres often give quartermasters grey hairs - replacement components often cost a pretty penny.
+",,"
+",,,,,
+w_w_alcp,SHIP,"This ship was perhaps a pirate’s attempt at recreating an Alacrity, a reconstruction of a wreck, or maybe the result of a bootleg techprint being ran through the wrong forge.
+Regardless, it (mostly) matches the original’s performance, despite the improvised armour composites affecting flux conduction and shield stability.
+Its hull and armour were sacrificed for the sake of economics: a relatively light, mass-producible hull prioritizing attack speed simply must have minimal mass.
+This has led to the Alacrity gaining a reputation as a glass cannon best entrusted to the most skilled captains, not unlike its larger cousin.
+
+Fortunately for pirate quartermasters, this specimen lacks the intricate and sensitive plasma venting system of the original, instead having a cleverly arranged set of manoeuvring thrusters.
+","
+","
+
+","
+",,,,
+w_w_hermesmkii,SHIP,"A derived class, based on the Hermes shuttle. The modifications include the addition of military grade power generators, heavier armour, and reinforced weapon mounts as well as the removal of the Mk. I shield emitter.
+The Sector is violent and unpredictable, and conflicts often flare up over the smallest resource or perceived slight. In such situations military-grade ships are sometimes not available quickly enough. Thus, resourceful engineers turn to hull modifications in order to be able to meet the demand for war materiel.
+
+Dating back to the unstable early years in the wake of the Collapse, this particular modification package found use among spacers on both sides of the law, being especially popular amongst scavengers and traders due to its favourable cost-to-firepower ratio.
+Its popularity eventually waned as better hardware progressively became available, but it still remains a top choice for emerging fleets to this day.",,,,,,,
+w_w_hermesmkp,SHIP,"A variation of the Hermes Mk.II mod-package, its former bridge and remaining cargo bay have been converted into a small, somewhat serviceable hangar with the addition of a compact autoforge ripped from a Shepherd and hacked to accept fighter LPCs. 
+Intended for use on frigate-sized hulls, said forge is well-integrated with the hull’s base power system, resulting in relative improvements to overall performance compared with typical slipshod conversions.
+
+However, the conversion of an already space-starved frigate into a carrier necessitates some sacrifices.
+The port ammofeed has been downsized, and auxiliary ammofeeds have been removed completely.
+Unfortunately, even after many concessions, the onboard hangar only carries the bare necessities to manufacture a wing of fighters, and in-combat replacement takes longer than usual.
+","
+
+",,,,,,
+w_w_hermesmklp,SHIP,"Modified by Pather militants into a horrific strikecraft, this gunship is ready to deliver fiery retribution unto those who denounce the teachings of Ludd.
+At its bow, the former bridge has been gutted and replaced with a permanently affixed medium launcher capable of launching volleys of Hammer-class torpedoes.
+Fed by an internal stockpile of torpedoes stored in what was once its cargo bay, this hull can retain great potential for vicious strikes in long engagements, but the stored ordnance has a tendency to “cook off” if jostled too much.
+
+Engines and power grids have been haphazardly modified, with various safety protocols and features completely ignored or removed, allowing for greater speed and performance in combat conditions - though rapid degradation of system performance is routine during prolonged sorties.
+",,"
+
+",,,,,
+w_w_warfarer,SHIP,"A derived class, based on the Wayfarer freighter. The modifications include the addition of military grade power generators, heavier armour, as well as reinforced weapon mounts.
+The Sector is violent and unpredictable, and conflicts often flare up over the smallest resource or perceived slight. In such situations military-grade ships are sometimes not available quickly enough. Thus, resourceful engineers turn to hull modifications in order to be able to meet the demand for war materiel.
+
+The base hull of this frigate is a standard Wayfarer-class combat freighter, however due to the scope of the hull conversion, the Warfarer is considered a separate class. 
+The result is a fighting ship which can hold its own and fight back hard, especially if properly screened from strikes and heavier hulls. The unorthodox weapons configuration often leads to unique fleet formations, and hull modifications often mean that no two Warfarers are quite the same.
+The tactics employed by a Warfarer captain will vary as much as his hull configuration, but rarely involve standing toe-to-toe with anything heavier than a frigate due to its lack of heavy firepower and durability. The combat plans usually involve a one hit wonder stratagem that never works on the same enemy twice, which is perfectly fine with the crew of the Warfarer.",,,,,,,
+w_w_pitman,SHIP,"A Mudskipper overhauled for deep resource extraction and light salvage duty, the Pitman has surprising output for its size thanks to a set of auxillary capacitors embedded into its hull. Up-armoured and boasting a powerful flux core, it is often lauded by independent scavengers as a flexible mining and escort vessel - with an inbuilt laser array that does not discriminate.",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#DESTROYERS,,,,,,,,,
+w_w_leprechaun,SHIP,"The Leprechaun is more a proof-of-concept than a combat craft; 
+To prove the viability of ring cloak-coils on a destroyer-sized chassis, a pair were hacked onto an old munitions carrier techprint.
+One of the running theories with the Gremlin’s phase emergence issue was the singular use of the ring cloak: if the larger coil was stabilized by a smaller “anchor” coil like that of the Grendel, emergent backwash could be minimized.
+
+However, ring frequency misalignment is inevitable during the stresses of combat, as the unprotected researchers unfortunately found. The resulting backwash manifested as a spike in radiation - those that were not killed by late-stage cancer became violently ill.
+
+Regardless of the initial black marks on its reputation, the Leprechaun was released upon the Sector after some slight revisions. With a simple logistical profile, construction process, and reasonable combat competency, the first few were snapped up fresh from the forge.
+Conditions in a Leprechaun aren’t that different from a typical frontier vessel - but crew know to keep their rad-suits at the ready.
+",,,,,,,
+w_w_nyala,SHIP,"Originally a bespoke Buffalo Mk.II pattern, the Nyala proved to be popular enough to deserve its own ship class, offering a competent mix of agility and firepower for its price.
+A clever, though crude, secondary flux core wired to its single phase coil bears the majority of its flux strain - and keeps radiation backwash low during a dive, provided P-Space sorties are kept short.  
+
+It is no wonder Nyala captains often are the most respected - or reviled among spacer circles.
+This depends on their approach to combat - perhaps deftly dipping in and out of phase out of consideration for their crew, else pushing crewmen and vessel alike to the limit in the single-minded pursuit of victory.
+",,,,,,,
+w_w_ballistae,SHIP,"Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.
+Built around a massive missile magazine, the Ballistae was birthed from a hopeful project of GA-X Industries, mainly to ensure their securement of lucrative future Domain military contracts.
+
+Much to the chagrin of GA-X’s marketing department, the Ballistae featured no proper mounting points for their other flagship products.
+The fallout of this poor design decision remains clear; all that remains of their legacy are common techprints and entries in slowly-degrading Explorarium archives.",,"
+",,,,,
+w_w_vaq,SHIP,"Designed by the “Cruiser School”-dominated Domain Naval Procurement Committee to provide a reliable anchor for smaller patrols and to hold gaps in lines, the Vaquero is a Centurion-class frigate writ large in almost every way.
+It lacks the integrated Damper Field that its smaller cousin is known for, instead boasting a vast internal stockpile of advanced active flares.
+What they cannot divert is shot down by its solid turret grid, or absorbed by its efficient shield generator.
+
+The contract for design of the Vaquero was won by Orion Shipyards, the traditional Armada ship-builder, in an effort to recover lost market share from Altair Exotech.
+This resulted in a vessel that was by all accounts a competent escort and line ship, but its lack of full frontal turret coverage - and the resulting complaints among the lower ranks, were enough for the old “Capital School” faction to send it back to committee.
+Threatened with the prospect of bad press, the committee simply ordered the installation of twin missile hardpoints.
+The firepower requirements were duly met, and the Vaquero programme proceeded with minor alterations.
+",,,,,,,
+w_w_mat,SHIP,"Designed by the “Cruiser School”-dominated Domain Naval Procurement Committee to provide a reliable anchor for smaller patrols and to hold gaps in lines, the Vaquero is a Centurion-class frigate writ large in almost every way.
+Unfortunately, this particular specimen has suffered horrific structural damage sometime in the past.
+Shield emitter nacelles have yet to be replaced, and experience mild power fluctuations, disrupting the integrity of its shield.
+
+The beyond-repair Active Flare Launchers have been ripped out, and a set of auxiliary power lines have been wired in their place; This allows the Matador to reroute almost all its remaining reactor output to the energy weapon emplacements that replace its destroyed arm.
+
+",,,,,,,
+w_w_lum,SHIP,"Designed by the “Cruiser School”-dominated Domain Naval Procurement Committee to provide a reliable anchor for smaller patrols and to hold gaps in lines, the Vaquero is a Centurion-class frigate writ large in almost every way.
+This example has had its engines replaced with titanic aftermarket specimens, and a crude but carefully welded fuel injector system threaded through its hull.
+Cargo bays have been converted into impromptu missile bays, upsizing its usual ordnance.
+The space taken up by these modifications left no room for the rear turret mounts and supporting flux conduits, leaving its rear vulnerable.
+
+However, this is of no consequence to its fanatic crew, who fly recklessly into enemy battlelines, determined to consume sinners and themselves alike in an explosion of wrathful Infernium.
+",,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#CRUISERS,,,,,,,,,
+w_w_bugbear,SHIP,"A sterling example of innovation in the face of desperation, the Bugbear is more the general definition for a collection of parts welded around a pair of barely-functional phase coils than an actual ship class.
+Its most notable trait is a revolutionary, though crude, secondary flux grid wired to its overstressed phase coil, allowing the Bugbear to briefly stay in P-Space with little consequence - provided it does not overstay its welcome.
+
+Every engagement aboard one’s fraught with terror; all the lives aboard in the hands of dedicated repair crews constantly tuning the coils, barely dodging death by P-Space implosion. 
+Bugbear captains often have trouble finding new crewmen - who in their right mind would willingly risk brain trauma, or worse, from a bad dive?
+Composed of the dregs of society, Bugbear crews tend to be unhinged at best and mutinous at worst.
+Who else’d be desperate enough to crew this repulsive craft?","
+","
+",,,,,
+w_w_igneon,SHIP,"A tanker of reasonable capacity often seen in the logistics trains of large fleets, the Igneon is popular among frontier scavengers for its swift drive profile and reasonable defensive arsenal.",,,,,,,
+w_w_brow,SHIP,"A rare, experimental prototype developed by the Tri-Tachyon Corporation, the Brow features fearsome frontal firepower from the large energy hardpoint at its bow. This is interfaced with an advanced Lidar Array of dubious technical provenance. Additional armament includes a smattering of energy turrets and limited missile capabilities.
+
+The Brow Project steering committee, keen to placate old-guard Domain Navy procurement officers seeking a return to the “glory” of older ships such as the Dominator and Onslaught, drew upon new applications of older technologies. The Collapse disrupted development while it was still underway, and completion only reached due to the pressures of the Second AI War. It was hoped that the Brow would popularize the same school of warship design that created the Paragon, and create more lucrative niches that Tri-Tachyon would be all too happy to fill.
+
+This was not to be; Later executive infighting led to particularly dramatic shifts in hierarchy, and favour for the Brow quickly ran dry.
+",,,,,,,
+w_w_ribaldo,SHIP,"A partially-demilitarized Mora converted into a mobile industrial platform, the Ribaldo has long been a staple of frontier space. The Mora’s rugged, adaptable frame lent well to the myriad duties asked of it, securing its popularity among civilian operators.
+
+Post-Collapse, Mora hulls that are too altered or damaged for combat duties often undergo demilitarization once more - though the definition has long since shifted.
+
+The majority of its fighter autoforges have been replaced with hardcoded Borer and Munga forge-vats, a hardwired Steward Mining Array fills the former frontal hangar, and a multipurpose salvage bay/gantry has been carved out towards the starboard hull.
+
+",,,,,,,
+,,,,,,,,,
+#CAPITALS,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+#WEAPONS,,,,,,,,,
+w_w_matchlock,WEAPON,"An archaic mass-driver pattern firing a dense, partially ferrous hypervelocity projectile which delivers a respectable kinetic payload for its class.
+Slightly obsolete and inferior to modern anti-shield systems, its low mounting overhead and flux efficiency allow it to compete with higher-end equipment.
+
+This particular pattern is said to have originated from a ring of blackweb-forge pirates active during the early eras of the Domain, and has been in circulation ever since.
+Constant improvements made to the techprint by subsequent generations of outlaws have kept sales high and performance relatively competitive.
+",,,,,,,
+w_w_wheellock,WEAPON,"An archaic mass-driver pattern firing a heavy payload of ultradense material with a ferromagnetic sheath.
+Slightly obsolete and inferior to modern anti-shield systems, its low mounting overhead and flux efficiency allow it to compete with modern equipment.
+
+Presumably swiped from a Stencor database in the early Mastery Era, the pattern that would become the Wheellock was first popularized among rogues during the Second Uridim Unrest.
+In subsequent eras, the blueprint saw various improvements - such as the addition of a primary coil to drive the projectile, and various tweaks to the alloy composition of the mass.
+",,,,,,,
+w_w_flintlock,WEAPON,"An archaic mass-driver pattern loaded with ultradense impactor munitions that are all but ineffective against modern spaced armour.
+However, the sheer kinetic impact of its rounds disrupt shield systems significantly, giving it a secure niche in modern combat.
+
+Rumoured to have been leaked from Stencor databases by a disgruntled employee in the wake of the “Neoferric” Quadcoil’s contract transfer to Orion Shipyards, the “Quadcoil” weapon system quickly became a favourite of blackweb forge-pirates.
+
+Inevitably, the circulation of the Quadcoil techprint spawned many imitations.
+With the advent of more modern acclerator technologies, knockoff patterns that would have been dismissed out of hand have instead found various anti-shield niches.
+This particular model seemed to be popular among frontier outlaws pre-Collapse for its low mounting overhead and ease of manufacture, and seems to have retained prominence even after the chaos that followed.
+",,,,,,,
+,,,,,,,,,
+w_w_lrmining,WEAPON,"A modification of the ubiquitous mining laser, this particular configuration boasts a retuned beam emitter and an extended focusing rod, giving it range comparable to modern combat lasers. 
+The slightly more complex equipment increases mounting overhead marginally, and lowered beam frequency decreases output significantly.
+",,,,,,,
+w_w_mininglance,WEAPON,"An upscaled mining tool with a set of dedicated feed capacitors taken from the Mining Blaster, this particular configuration can fire short bursts at much higher intensities.
+It is theorized that the Mining Lance pattern may have originated with frontier insurgent groups - lacking access to higher-end equipment, they often had to make do with common components.
+",,,,,,,
+w_w_stewart,WEAPON,"Paladin PD systems are rare to come by in the contemporary Sector; being an uncommon sight pre-Collapse, as well as its niche role of PD and its specific mounting requirements meant that it was rarer to see one in Tri-Tachyon fleets than spotting an Astral in Hegemony ranks.
+
+A cabal of intrepid independent engineers produced a solution: the Steward Mining Array.
+Three pairs of high-intensity-tuned mining lasers mounted onto a powerful turret base via a clever set of micro-motors allow for fuss-free beam convergence.
+Though it lacks the advanced targeting systems of the original, this ironically boosted its popularity - most, if not all of its components are easily sourced. Consequent low mounting overhead and flux generation meant that the Array became a mainstay of smaller and “freer” fleets for years to come.
+",,,,,,,
+,,,,,,,,,
+w_w_slt_sing,WEAPON,"Launches a torpedo packed with mining explosives. The charges are blasted in the vicinity of the target, creating a wave of shrapnel that easily overwhelms more precision-based PD grids. This launcher carries a single torpedo.
+
+Originally a mining tool used for clearing out dense asteroid belts, the Ko Combine Macrodisperser Remote Explosive Delivery System has, after some coaxing, found itself reducing hulls to muck instead.
+
+The Sleet is let down by its finicky targeting system, and the civillian explosives that often splatter harmlessly against everything but superstructure.
+",,,,,,,
+w_w_slt,WEAPON,"Launches a torpedo packed with mining explosives. The charges are blasted in the vicinity of the target, creating a wave of shrapnel that easily overwhelms more precision-based PD grids.
+
+Originally a mining tool used for clearing out dense asteroid belts, the Ko Combine Macrodisperser Remote Explosive Delivery System has, after some coaxing, found itself reducing hulls to muck instead.
+
+In spite of its reasonably large magazine, the Sleet is let down by its finicky targeting system, and the civillian explosives that often splatter harmlessly against everything but superstructure.
+",,,,,,,
+w_w_slt_med,WEAPON,"Launches a barrage of torpedoes packed with mining explosives. The charges are blasted in the vicinity of the target, creating a wave of shrapnel that easily overwhelms more precision-based PD grids. This launcher features a set of tandem rack-cyclers, allowing it to fire off a potent one-two salvo.
+
+Originally a mining tool used for clearing out dense asteroid belts, the Ko Combine Macrodisperser Remote Explosive Delivery System has, after some coaxing, found itself reducing hulls to muck instead.
+
+In spite of its reasonably large magazine, the Sleet is let down by its finicky targeting system, and the civillian explosives that often splatter harmlessly against everything but superstructure.
+",,,,,,,
+w_w_slt_large,WEAPON,"Launches a constant salvo of torpedoes packed with mining explosives. The charges are blasted in the vicinity of the target, creating a wave of shrapnel that easily overwhelms more precision-based PD grids. The hefty ammunition supply of this heavy launcher ensures unrelenting pressure.
+
+Originally a mining tool used for clearing out dense asteroid belts, the Ko Combine Macrodisperser Remote Explosive Delivery System has, after some coaxing, found itself reducing hulls to muck instead.
+
+Though it has a reasonably large magazine, the Sleet is let down by its finicky targeting system, and the civillian explosives that often splatter harmlessly against everything but superstructure.
+",,,,,,,
+,,,,,,,,,
+w_w_grav_blaster,WEAPON,"An unconventional early-model miniaturized and mass-produced blaster which is highly effective against shields, utilizing quirks of physics discovered during the Graviton Beam’s development. Fires pulses of energy which briefly create micro-rifts in the local brane fabric, causing higher-brane gravitons to enter the current space-time en masse, manifesting violent gravimetric shearing on the target.
+The infrastructure to stabilize the frequency of its pulses is relatively complex, causing its mounting overhead and flux efficiency to suffer.
+",,,,,,,

@@ -1,0 +1,59 @@
+{
+  "id": "w_w_lrmining",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "SMALL",
+  "beamEffect": "Meatball.w_w.data.weapons.LRMLEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/lrmining/w_w_lrmining_turret.png",
+  "turretGlowSprite": "graphics/weapons/lrmining/w_w_lrmining_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/lrmining/w_w_lrmining_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/lrmining/w_w_lrmining_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    13.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    21,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    175
+  ],
+  "coreColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "width": 19,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 72,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

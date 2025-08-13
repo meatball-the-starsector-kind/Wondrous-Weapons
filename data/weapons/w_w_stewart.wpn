@@ -1,0 +1,89 @@
+{
+  "id": "w_w_stewart",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "LARGE",
+  "beamEffect": "Meatball.w_w.data.weapons.MLEffect",
+  "collisionClass": "RAY_FIGHTER",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/stewart/w_w_stewart_turret.png",
+  "turretGlowSprite": "graphics/weapons/stewart/w_w_stewart_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/stewart/w_w_stewart_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/stewart/w_w_stewart_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    19.5,
+    -7,
+    19.5,
+    7,
+    19.5,
+    -19,
+    19.5,
+    19,
+    11,
+    19.5,
+    11,
+    -19.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    32.5,
+    -6,
+    32.5,
+    6,
+    32.5,
+    18,
+    32.5,
+    -18,
+    23.5,
+    18.5,
+    23.5,
+    -18.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    175
+  ],
+  "coreColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "convergeOnPoint": true,
+  "width": 8,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 80,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

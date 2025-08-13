@@ -1,0 +1,46 @@
+{
+  "variantId": "w_w_alcp_trk",
+  "hullId": "w_w_alcp",
+  "displayName": "Tricked Out",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

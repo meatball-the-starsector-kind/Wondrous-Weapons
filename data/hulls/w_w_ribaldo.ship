@@ -1,0 +1,201 @@
+{
+  "hullName": "Ribaldo",
+  "hullId": "w_w_ribaldo",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/w_w_ribaldo.png",
+  "style": "LOW_TECH",
+  "height": 190,
+  "width": 234,
+  "center": [111, 88],
+  "collisionRadius": 150,
+  "shieldCenter": [1, 1],
+  "shieldRadius": 140,
+  "viewOffset": 0,
+  "builtInMods": [
+    "w_w_freq_twks",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "borer_wing",
+    "w_w_munga_wing"
+  ],
+  "builtInWeapons": {
+    "WS 013": "w_w_stewart"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": 0,
+      "locations": [54.5, 76]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -50,
+      "locations": [19.5, -83]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -20,
+      "locations": [67.5, -45]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -80,
+      "locations": [2, -102]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 80,
+      "locations": [16, 91.5]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -40,
+      "locations": [50.5, -71]
+    },
+    {
+      "id": "WS 013",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [60.5, -3]
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-58.5, -5]
+    },
+    {
+      "id": "WS 015",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        11, 45,
+        -34, 17,
+        -49, -26.5,
+        18, 45
+      ]
+    },
+    {
+      "id": "WS 016",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -47, 26,
+        3, 45,
+        -49, -15,
+        11, 38.5
+      ]
+    },
+    {
+      "id": "WS 017",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -35, -17,
+        -48, 13,
+        18, 38.5,
+        3, 38.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 52.5,
+      "locations": [7, -36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, 74.5],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-68, 55],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-65, -61],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, -80.5],
+      "length": 64,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    63, 84,
+    63.5, 30.5,
+    78.5, 23,
+    80.5, -31.5,
+    98.5, -37,
+    11.5, -115,
+    -71.5, -93.5,
+    -66, -54.5,
+    -80, -35,
+    -63, -27,
+    -63, 23.5,
+    -81, 31,
+    -69, 49,
+    -69.5, 87.5,
+    -1.5, 110
+  ]
+}

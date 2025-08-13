@@ -1,0 +1,187 @@
+{
+  "hullName": "Igneon",
+  "hullId": "w_w_igneon",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/w_w_igneon.png",
+  "style": "LOW_TECH",
+  "height": 254,
+  "width": 158,
+  "center": [79, 127],
+  "collisionRadius": 139,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 142.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [112.5, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [25, 45.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -60,
+      "locations": [89.5, -53.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -120,
+      "locations": [-76, -44.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 120,
+      "locations": [-76, 44.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-124, 3.5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-124, -3.5],
+      "length": 40,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, 30],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, -30],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, 36],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, -36],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, 40.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125, -40.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, -54.5],
+      "length": 40,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, 54.5],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, -59.5],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, 59.5],
+      "length": 40,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -25, 65,
+    -43, 76,
+    -115, 76,
+    -125, 44,
+    -125, -44,
+    -115, -76,
+    -43, -76,
+    -25, -65,
+    -25, -54,
+    6, -55,
+    12, -49,
+    21, -49,
+    80, -69,
+    97, -69,
+    105, -52.5,
+    119, -12.5,
+    126, 14,
+    126, 24.5,
+    121, 31,
+    108, 51,
+    108, 56,
+    88, 64,
+    70, 53,
+    14, 57,
+    9, 49,
+    -20, 49
+  ]
+}

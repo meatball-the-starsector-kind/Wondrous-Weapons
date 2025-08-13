@@ -1,0 +1,43 @@
+{
+  "variantId": "w_w_ballistae_bomb",
+  "hullId": "w_w_ballistae",
+  "displayName": "Bombardier",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 0.8,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon",
+        "WS0007": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "flak",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,27 @@
+{
+  "variantId": "w_w_hermesmklp_rec",
+  "hullId": "w_w_hermesmklp",
+  "displayName": "Recanter",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 4,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymg",
+        "WS0002": "heavymg",
+        "WS0003": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

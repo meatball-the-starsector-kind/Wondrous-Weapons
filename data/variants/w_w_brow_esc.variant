@@ -1,0 +1,49 @@
+{
+  "variantId": "w_w_brow_esc",
+  "hullId": "w_w_brow",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 21,
+  "fluxVents": 20,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "guardian",
+        "WS0004": "irautolance",
+        "WS0008": "swarmer",
+        "WS0009": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdburst",
+        "WS0003": "pdburst",
+        "WS0005": "pdburst",
+        "WS0006": "pdburst",
+        "WS0007": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

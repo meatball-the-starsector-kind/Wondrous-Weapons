@@ -1,0 +1,42 @@
+{
+  "variantId": "w_w_nyala_mine",
+  "hullId": "w_w_nyala",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 8,
+  "quality": 0.3,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "unstable_injector",
+    "magazines",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "jackhammer",
+        "WS0001": "w_w_mininglance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "w_w_lrmining",
+        "WS 002": "mininglaser",
+        "WS 003": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

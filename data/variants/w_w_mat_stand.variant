@@ -1,0 +1,43 @@
+{
+  "variantId": "w_w_mat_stand",
+  "hullId": "w_w_mat",
+  "displayName": "Standoff",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "armoredweapons",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0004": "gravitonbeam",
+        "WS0007": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabot_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

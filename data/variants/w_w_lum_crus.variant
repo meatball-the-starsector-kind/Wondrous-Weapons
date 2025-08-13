@@ -1,0 +1,64 @@
+{
+  "variantId": "w_w_lum_crus",
+  "hullId": "w_w_lum",
+  "displayName": "Crusader",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "quality": 0.4,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair",
+    "missleracks",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jackhammer",
+        "WS0008": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "w_w_mininglance",
+        "WS0004": "w_w_mininglance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

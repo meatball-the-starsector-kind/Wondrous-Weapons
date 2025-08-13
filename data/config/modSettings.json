@@ -1,0 +1,23 @@
+{
+    "nexerelin":{
+
+		"mining_ship_strengths":{
+			"w_w_munga": 0.5,			# some survey stuff was left in + extends the effective range of the Sleet
+			"pitman": 4,				# salvage gantry = mining gantry?
+			"w_w_ribaldo": 8
+		},
+		"mining_weapon_strengths":{
+			"w_w_mininglance": 8,
+			"w_w_lrmining": 2.5,
+			"w_w_slt_sing": 2,
+			"w_w_slt": 8,
+			"w_w_slt_med": 12,
+			"w_w_slt_large": 24,
+			"w_w_stewart": 16
+		},
+		"mining_hidden_ships_and_weapons":[
+			"drone_borer"
+		],
+    },
+
+}

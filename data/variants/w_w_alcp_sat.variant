@@ -1,0 +1,42 @@
+{
+  "variantId": "w_w_alcp_sat",
+  "hullId": "w_w_alcp",
+  "displayName": "Saturation",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 0.3,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "missile_autoloader",
+    "magazines",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "shredder",
+        "WS0004": "w_w_slt"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

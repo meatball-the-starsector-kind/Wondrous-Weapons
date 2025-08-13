@@ -1,0 +1,339 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		#"brawler_Assault":7,
+		#"brawler_Elite":3,
+		#"brawler_tritachyon_Standard":10,
+		#"brawler_pather_Raider":10,
+		#"brawler_Support":0, # PL-only variant
+		"w_w_alc_adv":6,
+		"w_w_alc_strike":4,
+		"w_w_alcp_sat":6,
+		"w_w_alcp_skirm":4,
+
+		"w_w_hermesmkii_esc":2,
+		"w_w_hermesmkii_fs":6,
+		"w_w_hermesmkii_snip":2,
+
+		"w_w_hermesmklp_crus":4,
+		"w_w_hermesmklp_marty":4,
+		"w_w_hermesmklp_rec":2,
+		
+		"w_w_hermesmkp_bomb":2,
+		"w_w_hermesmkp_div":4,
+		"w_w_hermesmkp_scrn":4,
+		
+		"w_w_pitman_blast":2,
+		"w_w_pitman_prosp":4,
+		"w_w_pitman_rabid":4,
+
+		"w_w_warfarer_beam":4,
+		"w_w_warfarer_sabo":2,
+		"w_w_warfarer_sat":4,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"w_w_ballistae_bomb":5,
+		"w_w_ballistae_mine":5,
+		
+		"w_w_lum_crus":5,
+		"w_w_lum_marty":5,
+		"w_w_mat_mine":6,
+		"w_w_mat_stand":4,
+		"w_w_vaq_esc":10,
+		"w_w_vaq_gaz":0, #PL-only variant
+		"w_w_vaq_gorg":0, #PL-only variant
+
+		"w_w_nyala_elite":2,
+		"w_w_nyala_mine":3,
+		"w_w_nyala_patch":3,
+		"w_w_nyala_twk":2,
+
+		"w_w_leprechaun_elite":1,
+		"w_w_leprechaun_frenz":2,
+		"w_w_leprechaun_mine":4,
+		"w_w_leprechaun_patch":3,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"w_w_brow_esc":2,
+		"w_w_brow_lance":1,
+		"w_w_brow_liq":1,
+		"w_w_brow_pepper":6,
+		
+		"w_w_ribaldo_bomb":3,
+		"w_w_ribaldo_prosp":4,
+		"w_w_ribaldo_surv":2,
+		"w_w_ribaldo_trck":1,
+
+		"w_w_bugbear_elite":2,
+		"w_w_bugbear_frenz":2,
+		"w_w_bugbear_mine":3,
+		"w_w_bugbear_patch":3,
+
+		"fallback":{"combatMedium":1},
+	},
+	#"combatCapital":{
+		#"conquest_DEM":0, # probability overridden in persean_league.faction
+		#"pegasus_Strike":5,
+		#"pegasus_Balanced":5,
+		#"executor_Standard":5,
+		#"executor_Elite":5,
+		#"conquest_Standard":5,
+		#"conquest_Elite":5,
+		#"onslaught_Standard":4,
+		#"onslaught_Outdated":4,
+		#"onslaught_Elite":2,
+		#"onslaught_xiv_Elite":10,
+		#"paragon_Elite":4,
+		#"paragon_Escort":3,
+		#"paragon_Raider":3,
+		#"odyssey_Balanced":10,
+		#"retribution_Standard":10,
+		#"invictus_Standard":5,
+		#"invictus_Support":5,
+		
+		#"guardian_Standard":10,
+		#"radiant_Standard":4,
+		#"radiant_Strike":3,
+		#"radiant_Assault":3,
+		
+		#"nova_Standard":5,
+		#"nova_Attack":5,
+		
+		#"atlas2_Standard":10,
+		#"prometheus2_Standard":10,
+		
+		#"fallback":{"combatLarge":1},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	#"combatFreighterSmall":{
+		#"cerberus_Hardened":2.5,
+		#"cerberus_Overdriven":2.5,
+		#"cerberus_Shielded":2.5,
+		#"cerberus_Standard":2.5,
+		#"cerberus_d_pirates_Shielded":4,
+		#"cerberus_d_pirates_Standard":6,
+		#"cerberus_luddic_path_Attack":10,
+		
+		#"hound_Standard":10,
+		#"hound_d_pirates_Shielded":3,
+		#"hound_d_pirates_Standard":4,
+		#"hound_d_pirates_Overdriven":3,
+		#"hound_hegemony_Standard":10,
+		#"hound_luddic_church_Standard":10,
+		#"hound_luddic_path_Attack":10,
+		
+		#"kite_hegemony_Interceptor":10,
+		#"kite_pirates_Raider":10,
+		#"kite_Standard":5,
+		#"kite_Support":5,
+		#"kite_luddic_path_Raider":5,
+		#"kite_luddic_path_Strike":5,
+
+		#"shepherd_Frontier":10,
+		#"wayfarer_Standard":10,
+		#"fallback":{"freighterSmall":1},
+	},
+	#"combatFreighterMedium":{
+		#"mule_Standard":10,
+		#"mule_d_pirates_Smuggler":5,
+		#"mule_d_pirates_Standard":5,
+		#"gemini_Standard":10,
+		#"fallback":{"combatFreighterSmall":1},
+	},
+	#"combatFreighterLarge":{
+		#"venture_Balanced":4,
+		#"venture_Outdated":4,
+		#"venture_Exploration":3,
+		#"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+		"w_w_igneon_stock":10
+	},
+
+	# carriers
+	"carrierSmall":{
+		"w_w_hermesmkp_bomb":2,
+		"w_w_hermesmkp_div":4,
+		"w_w_hermesmkp_scrn":4,
+		
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"w_w_ribaldo_bomb":3,
+		"w_w_ribaldo_prosp":4,
+		"w_w_ribaldo_surv":2,
+		"w_w_ribaldo_trck":1,
+
+		"fallback":{"carrierSmall":1},
+		#"fallback2":{"carrierLarge":0.5},
+	},
+	#"carrierLarge":{
+		#"astral_Strike":4,
+		#"astral_Attack":4,
+		#"astral_Elite":2,
+		
+		#"legion_Assault":2.5,
+		#"legion_Escort":2.5,
+		#"legion_FS":2.5,
+		#"legion_Strike":2.5,
+		
+		#"legion_xiv_Elite":10,
+		
+		#"fallback":{"carrierMedium":1},
+		#"fallback2":{"carrierSmall":1},
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"w_w_nyala_elite":2,
+		"w_w_nyala_mine":3,
+		"w_w_nyala_patch":3,
+		"w_w_nyala_twk":2,
+
+		"w_w_leprechaun_elite":1,
+		"w_w_leprechaun_frenz":2,
+		"w_w_leprechaun_mine":4,
+		"w_w_leprechaun_patch":3,
+		"fallback":{"phaseMedium":0.5},
+		"fallback2":{"phaseLarge":0.25},
+	},
+	"phaseMedium":{
+		"w_w_nyala_elite":2,
+		"w_w_nyala_mine":3,
+		"w_w_nyala_patch":3,
+		"w_w_nyala_twk":2,
+
+		"w_w_leprechaun_elite":1,
+		"w_w_leprechaun_frenz":2,
+		"w_w_leprechaun_mine":4,
+		"w_w_leprechaun_patch":3,
+		"fallback":{"phaseSmall":1},
+		"fallback2":{"phaseLarge":0.5},
+	},
+	"phaseLarge":{
+		"w_w_bugbear_elite":2,
+		"w_w_bugbear_frenz":2,
+		"w_w_bugbear_mine":3,
+		"w_w_bugbear_patch":3,
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},
+	#"phaseCapital":{
+		#"ziggurat_Strike":10,
+	},
+
+	# freighters and such
+	#"freighterSmall":{
+		#"hermes_Standard":1,
+		
+		#"buffalo_hegemony_Standard":10,
+		#"buffalo_luddic_church_Standard":10,
+		#"buffalo_pirates_Standard":10,
+		#"buffalo_tritachyon_Standard":10,
+		#"tarsus_Standard":10,
+		#"buffalo_Standard":10,
+		#"gemini_Standard":5,
+		#"revenant_Elite":3,
+		#"fallback":{"freighterMedium":0.5},
+		#"fallback2":{"freighterLarge":0.25},
+	},
+	#"freighterMedium":{
+		#"colossus_Standard":10,
+		#"fallback":{"freighterSmall":1},
+		#"fallback2":{"freighterLarge":0.5},
+	},
+	#"freighterLarge":{
+		#"atlas_Standard":10,
+		#"fallback":{"freighterMedium":1},
+		#"fallback2":{"freighterSmall":1},
+	},
+	
+	#"tankerSmall":{
+		#"dram_Light":10,
+		#"fallback":{"tankerMedium":0.5},
+		#"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+		"w_w_igneon_stock":10
+	},
+	#"tankerLarge":{
+		#"prometheus_Super":10,
+		#"fallback":{"tankerMedium":1},
+		#"fallback2":{"tankerSmall":1},
+	},
+	
+	#"personnelSmall":{
+		#"mercury_Standard":10,
+		#"kite_Standard":10,
+		#"mudskipper_Standard":1,
+		#"fallback":{"personnelMedium":0.5},
+		#"fallback2":{"personnelLarge":0.25},
+	},
+	#"personnelMedium":{
+		#"valkyrie_Elite":10,
+		#"phantom_Elite":10,
+		#"nebula_Standard":1,
+		#"fallback":{"personnelSmall":1},
+		#"fallback2":{"personnelLarge":0.5},
+	},
+	#"personnelLarge":{
+		#"fallback":{"personnelMedium":1},
+		#"fallback2":{"personnelSmall":1},
+	},
+	
+	#"linerSmall":{
+		#"kite_original_Stock":1,
+		#"mudskipper_Standard":10,
+		#"fallback":{"linerMedium":0.5},
+		#"fallback2":{"linerLarge":0.25},
+	},
+	#"linerMedium":{
+		#"nebula_Standard":10,
+		#"fallback":{"linerSmall":1},
+		#"fallback2":{"linerLarge":0.5},
+	},
+	#"linerLarge":{
+		#"starliner_Standard":10,
+		#"fallback":{"linerMedium":1},
+		#"fallback2":{"linerSmall":1},
+	},
+	
+	# utility ships
+	#"tug":{
+		#"ox_Standard":10,
+		#"fallback":{"utility":1},
+	},
+	#"crig":{
+		#"crig_Standard":10,
+		#"fallback":{"utility":1},
+	},
+	"utility":{
+		#"ox_Standard":2,
+		"w_w_ribaldo_bomb":3,
+		"w_w_ribaldo_prosp":4,
+		"w_w_ribaldo_surv":2,
+		"w_w_ribaldo_trck":1
+	},
+	
+	#"orbitalStationLowTech":{
+		#"station1_Standard":10,
+	},
+	
+	#"battlestationLowTech":{
+		#"station2_Standard":10,
+	},
+	
+}
