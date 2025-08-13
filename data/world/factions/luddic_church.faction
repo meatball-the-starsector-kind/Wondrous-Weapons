@@ -58,6 +58,7 @@
 		"hulls":[
 		    "w_w_hermesmkii",
 		    "w_w_igneon",
+		    "w_w_ribaldo",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -69,9 +70,7 @@
 	"knownFighters":{
 		"tags":["luddic_church"],
 		"fighters":[
-			"broadsword_wing",
-			"perdition_wing",
-			"talon_wing",
+			"w_w_munga_wing",
 		],
 	},
 	"priorityFighters":{
@@ -85,46 +84,9 @@
 	"knownWeapons":{
 		"tags":["luddic_church"],
 		"weapons":[
-			"lightmg",
-			"lightdualmg",
-			"lightmortar",
-			"vulcan",
-			"lightac",
-			"lightdualac",
-			
-			"shredder",
-			"heavymortar",
-			"flak",
-			"arbalest",
-			
-			"mark9",
-			"hellbore",
-			"devastator",
-			
-			"hammer",
-			"hammer_single",
-			"swarmer",
-			"annihilator",
-			"harpoon",
-			"harpoon_single",
-			"breach",
-			"sabot",
-			"sabot_single",
-			
-			"jackhammer",
-			"harpoonpod",
-			"sabotpod",
-			"breachpod",
-			"salamanderpod",
-			"annihilatorpod",
-			"pilum",
-			
-			"pilum_large",
-			"hurricane",
-			"hammerrack",
-			
-			"mininglaser",
-			"miningblaster",
+			"w_w_lrmining",
+			"w_w_mininglance",
+			"w_w_stewart",
 		],
 	},
 	"priorityWeapons":{

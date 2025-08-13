@@ -108,6 +108,7 @@
 		"w_w_stewart":5,
 	},
 	"fighterSellFrequency":{
+	    "w_w_munga_wing":4,
 	},
 	"hullmodSellFrequency":{
 		"augmentedengines":5,

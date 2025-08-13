@@ -52,6 +52,7 @@
 			"w_w_igneon",
 			"w_w_ribaldo",
 			"w_w_vaq",
+			"w_w_hermesmkii",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -63,6 +64,7 @@
 	"knownFighters":{
 		"tags":["persean"],
 		"fighters":[
+            "w_w_munga_wing",
 		],
 	},
 	"priorityFighters":{

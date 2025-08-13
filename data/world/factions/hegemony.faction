@@ -34,6 +34,7 @@
 		},
 		"hulls":{
 		    "w_w_igneon":1,
+		    "w_w_hermesmkii":1,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -47,6 +48,7 @@
 		"hulls":[
 			"w_w_igneon",
 			"w_w_ribaldo",
+			"w_w_hermesmkii",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -69,12 +71,7 @@
 	"knownFighters":{
 		"tags":["hegemony"],
 		"fighters":[
-			"talon_wing",
-			"broadsword_wing",
-			"warthog_wing",
-			"piranha_wing",
-			"hoplon_wing",
-			"longbow_wing",
+			"w_w_munga_wing",
 		],
 	},
 	"priorityFighters":{
