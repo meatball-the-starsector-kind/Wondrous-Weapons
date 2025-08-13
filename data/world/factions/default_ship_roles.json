@@ -35,6 +35,30 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{
+		"w_w_alc_adv":6,
+		"w_w_alc_strike":4,
+		"w_w_alcp_sat":6,
+		"w_w_alcp_skirm":4,
+
+		"w_w_hermesmkii_esc":2,
+		"w_w_hermesmkii_fs":6,
+		"w_w_hermesmkii_snip":2,
+
+		"w_w_hermesmklp_crus":4,
+		"w_w_hermesmklp_marty":4,
+		"w_w_hermesmklp_rec":2,
+
+		"w_w_hermesmkp_bomb":2,
+		"w_w_hermesmkp_div":4,
+		"w_w_hermesmkp_scrn":4,
+
+		"w_w_pitman_blast":2,
+		"w_w_pitman_prosp":4,
+		"w_w_pitman_rabid":4,
+
+		"w_w_warfarer_beam":4,
+		"w_w_warfarer_sabo":2,
+		"w_w_warfarer_sat":4,
 
 		"fallback":{"combatMedium":0.5},
 	},
@@ -154,7 +178,7 @@
 		"w_w_hermesmkp_scrn":4,
 		
 		"fallback":{"carrierMedium":0.5},
-		"fallback2":{"carrierLarge":0.25},
+		#"fallback2":{"carrierLarge":0.25},
 	},
 	"carrierMedium":{
 		"w_w_ribaldo_bomb":3,
