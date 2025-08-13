@@ -50,16 +50,6 @@
 		"w_w_vaq_gaz":0, #PL-only variant
 		"w_w_vaq_gorg":0, #PL-only variant
 
-		"w_w_nyala_elite":2,
-		"w_w_nyala_mine":3,
-		"w_w_nyala_patch":3,
-		"w_w_nyala_twk":2,
-
-		"w_w_leprechaun_elite":1,
-		"w_w_leprechaun_frenz":2,
-		"w_w_leprechaun_mine":4,
-		"w_w_leprechaun_patch":3,
-
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
@@ -72,11 +62,6 @@
 		"w_w_ribaldo_prosp":4,
 		"w_w_ribaldo_surv":2,
 		"w_w_ribaldo_trck":1,
-
-		"w_w_bugbear_elite":2,
-		"w_w_bugbear_frenz":2,
-		"w_w_bugbear_mine":3,
-		"w_w_bugbear_patch":3,
 
 		"fallback":{"combatMedium":1},
 	},
@@ -112,7 +97,7 @@
 		#"prometheus2_Standard":10,
 		
 		#"fallback":{"combatLarge":1},
-	},
+	#},
 	
 	
 	# hybrid ships with good combat and cargo capacity
@@ -143,20 +128,20 @@
 		#"shepherd_Frontier":10,
 		#"wayfarer_Standard":10,
 		#"fallback":{"freighterSmall":1},
-	},
+	#},
 	#"combatFreighterMedium":{
 		#"mule_Standard":10,
 		#"mule_d_pirates_Smuggler":5,
 		#"mule_d_pirates_Standard":5,
 		#"gemini_Standard":10,
 		#"fallback":{"combatFreighterSmall":1},
-	},
+	#},
 	#"combatFreighterLarge":{
 		#"venture_Balanced":4,
 		#"venture_Outdated":4,
 		#"venture_Exploration":3,
 		#"fallback":{"combatFreighterMedium":1},
-	},
+	#},
 	
 	"civilianRandom":{
 		"w_w_igneon_stock":10
@@ -194,7 +179,7 @@
 		
 		#"fallback":{"carrierMedium":1},
 		#"fallback2":{"carrierSmall":1},
-	},
+	#},
 
 	# phase ships
 	"phaseSmall":{
@@ -233,7 +218,7 @@
 	},
 	#"phaseCapital":{
 		#"ziggurat_Strike":10,
-	},
+	#},
 
 	# freighters and such
 	#"freighterSmall":{
@@ -249,23 +234,23 @@
 		#"revenant_Elite":3,
 		#"fallback":{"freighterMedium":0.5},
 		#"fallback2":{"freighterLarge":0.25},
-	},
+	#},
 	#"freighterMedium":{
 		#"colossus_Standard":10,
 		#"fallback":{"freighterSmall":1},
 		#"fallback2":{"freighterLarge":0.5},
-	},
+	#},
 	#"freighterLarge":{
 		#"atlas_Standard":10,
 		#"fallback":{"freighterMedium":1},
 		#"fallback2":{"freighterSmall":1},
-	},
+	#},
 	
 	#"tankerSmall":{
 		#"dram_Light":10,
 		#"fallback":{"tankerMedium":0.5},
 		#"fallback2":{"tankerLarge":0.25},
-	},
+	#},
 	"tankerMedium":{
 		"w_w_igneon_stock":10
 	},
@@ -273,7 +258,7 @@
 		#"prometheus_Super":10,
 		#"fallback":{"tankerMedium":1},
 		#"fallback2":{"tankerSmall":1},
-	},
+	#},
 	
 	#"personnelSmall":{
 		#"mercury_Standard":10,
@@ -281,45 +266,45 @@
 		#"mudskipper_Standard":1,
 		#"fallback":{"personnelMedium":0.5},
 		#"fallback2":{"personnelLarge":0.25},
-	},
+	#},
 	#"personnelMedium":{
 		#"valkyrie_Elite":10,
 		#"phantom_Elite":10,
 		#"nebula_Standard":1,
 		#"fallback":{"personnelSmall":1},
 		#"fallback2":{"personnelLarge":0.5},
-	},
+	#},
 	#"personnelLarge":{
 		#"fallback":{"personnelMedium":1},
 		#"fallback2":{"personnelSmall":1},
-	},
+	#},
 	
 	#"linerSmall":{
 		#"kite_original_Stock":1,
 		#"mudskipper_Standard":10,
 		#"fallback":{"linerMedium":0.5},
 		#"fallback2":{"linerLarge":0.25},
-	},
+	#},
 	#"linerMedium":{
 		#"nebula_Standard":10,
 		#"fallback":{"linerSmall":1},
 		#"fallback2":{"linerLarge":0.5},
-	},
+	#},
 	#"linerLarge":{
 		#"starliner_Standard":10,
 		#"fallback":{"linerMedium":1},
 		#"fallback2":{"linerSmall":1},
-	},
+	#},
 	
 	# utility ships
 	#"tug":{
 		#"ox_Standard":10,
 		#"fallback":{"utility":1},
-	},
+	#},
 	#"crig":{
 		#"crig_Standard":10,
 		#"fallback":{"utility":1},
-	},
+	#},
 	"utility":{
 		#"ox_Standard":2,
 		"w_w_ribaldo_bomb":3,
@@ -330,10 +315,10 @@
 	
 	#"orbitalStationLowTech":{
 		#"station1_Standard":10,
-	},
+	#},
 	
 	#"battlestationLowTech":{
 		#"station2_Standard":10,
-	},
+	#},
 	
 }
