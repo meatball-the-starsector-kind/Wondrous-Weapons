@@ -28,7 +28,7 @@
     },
     {
       "id": "WS0002",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 270,
@@ -37,7 +37,7 @@
     },
     {
       "id": "WS0003",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 180,

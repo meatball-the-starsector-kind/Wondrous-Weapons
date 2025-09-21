@@ -1,17 +1,17 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 Sleet Torpedo(Single),w_w_slt_sing,0,,250,2000,,1500,50,80,10,3,1,,,FRAGMENTATION,0,,0,0,1,,1,3,1,1,,400,100,6,200,,10,"ANTI_FTR, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike10, rocket16, utility15, show_in_codex",,,,Torpedo/Saturation,Fast,Poor,,,"On explosion, releases %s secondary charges that deal %s fragmentation damage each.
-",10 | 300 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
+",10 | 200 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
 Sleet Torpedo,w_w_slt,0,1.6,250,2000,,1500,50,80,10,3,8,,,FRAGMENTATION,0,,0,5,1,,1,3,1,1,,400,100,6,200,,10,"ANTI_FTR, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike10, rocket16, utility15, base_bp, merc, ind",,,,Torpedo/Saturation,Fast,Poor,,,"On explosion, releases %s secondary charges that deal %s fragmentation damage each.
-",10 | 300 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
+",10 | 200 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
 Sleet Autolauncher,w_w_slt_med,0,1.6,1000,2000,,1500,50,80,10,6,16,,,FRAGMENTATION,0,,0,5,2,0.5,10,20,5,2,,400,100,6,200,,10,"ANTI_FTR, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike10, rocket16, utility15, base_bp, merc, ind",,,,Torpedo/Saturation,Fast,Poor,,,"On explosion, releases %s secondary charges that deal %s fragmentation damage each.
-",10 | 300 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
+",10 | 200 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
 Sleet Storm,w_w_slt_large,0,1.6,1500,2000,,1500,50,80,10,15,48,,,FRAGMENTATION,0,,0,5,6,0.5,10,30,5,2,,400,100,6,200,,10,"ANTI_FTR, STRIKE, DIRECT_AIM, USE_VS_FRIGATES","strike10, rocket16, utility15, base_bp, merc, ind",,,,Torpedo/Saturation,Fast,Poor,,,"On explosion, releases %s secondary charges that deal %s fragmentation damage each.
-",10 | 300 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
+",10 | 200 | fragmentation,Charges %s for IFFs. %s.,do not care | Pick targets carefully,TRUE,2228
 #Sleet Charge,#w_w_slt_sub,0,,,100,,300,,20,,,,,,FRAGMENTATION,0,,0,1,1,,,,,,,500,100,4,100,,,SYSTEM,,,,,,,,,,,,,,,10
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Matchlock Driver,w_w_matchlock,0,1.4,500,700,,70,,10,25,4,,,,KINETIC,56,,0.5,0,1,0,0,0,0,0,0,900,,,40,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
-Wheellock Heavy Driver,w_w_wheellock,0,1.4,1250,800,,160,,20,20,8,,,,KINETIC,128,,1,0,1,0,0,0,0,0,0,900,,,240,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
-Flintlock Coilcannon,w_w_flintlock,0,1.4,4000,900,,300,,30,15,18,,,,KINETIC,240,,0.5,3,2,0,0,0,0,0,0,900,,,300,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
+Matchlock Driver,w_w_matchlock,0,1.4,500,700,,70,,10,25,4,10,0.5,1,KINETIC,56,,0.5,0,1,0,0,0,0,0,0,900,,,40,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
+Wheellock Heavy Driver,w_w_wheellock,0,1.4,1250,800,,180,,20,20,8,10,0.5,1,KINETIC,128,,1,0,1,0,0,0,0,0,0,900,,,240,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
+Flintlock Coilcannon,w_w_flintlock,0,1.4,3000,900,,350,,30,15,18,20,1,2,KINETIC,240,,0.5,3,2,0,0,0,0,0,0,900,,,300,,,,"kinetic10, pirate_bp, pirates, merc, ind, LR",,Pirate,,Anti Shield,,,,,,,,,,2.3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Mining Laser,mininglaser,0,,100,600,30,,,0,80,1,,,,ENERGY,,10,0,0.25,,,,,,,2400,,,,,,,"PD, ANTI_FTR","beam8, energy10, pd8, base_bp, merc, ind",,,,Point Defense,,,,,,,,,,16.5
 LR Mining Laser,w_w_lrmining,0,1.6,250,800,20,,,0,70,2,,,,ENERGY,,15,0.05,0.3,,,,,,,2400,,,,,,,"PD, ANTI_FTR","beam8, energy10, pd16, base_bp, merc, ind",,,,Point Defense,,,,,"The alterations to the beam's frequency have resulted in a weak ablative effect being produced at the point of contact, dealing 20 additional fragmentation damage to the target.",20 | fragmentation,,,,22.125
